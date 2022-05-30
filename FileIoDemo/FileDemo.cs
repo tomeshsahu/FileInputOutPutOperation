@@ -9,7 +9,7 @@ namespace FileIoDemo
     public class FileDemo
     {
         string filepath = @"E:\FileOiDemo\FileIoDemo\Example.txt";
-        string copyFilePath = @"E:\FileOiDemo\FileIoDemo\Example.txt";
+        string copyFilePath = @"E:\FileOiDemo\FileIoDemo\Example2.txt";
         public void FileExist()
         {
             if (File.Exists(filepath))
